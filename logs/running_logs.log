@@ -1,1 +1,71 @@
 [2024-08-22 19:14:36,168: INFO: main: Welcome to our custom log]
+[2024-08-30 00:37:21,847: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-30 00:37:21,857: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-30 00:37:21,859: INFO: common: created directory at: artifacts]
+[2024-08-30 00:37:21,860: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-30 00:37:21,862: INFO: 3172177572: Downloading data from https://drive.google.com/file/d/13mRYuUPCc4glFqrvLThrxC1zAy5dlHKO/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-08-30 00:37:34,232: INFO: 3172177572: Downloaded data from https://drive.google.com/file/d/13mRYuUPCc4glFqrvLThrxC1zAy5dlHKO/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-09-12 16:07:59,579: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-12 16:07:59,579: ERROR: main: 'ConfigurationManager' object has no attribute 'config']
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\bhavya\desktop\kidney disease clasification\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "c:\users\bhavya\desktop\kidney disease clasification\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\config\configuration.py", line 82, in get_data_ingestion_config
+    config = self.config.data_ingestion
+AttributeError: 'ConfigurationManager' object has no attribute 'config'
+[2024-09-12 16:17:55,594: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-12 16:17:55,595: ERROR: main: 'ConfigurationManager' object has no attribute 'config']
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\bhavya\desktop\kidney disease clasification\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "c:\users\bhavya\desktop\kidney disease clasification\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\config\configuration.py", line 73, in get_data_ingestion_config
+    config = self.config.data_ingestion
+AttributeError: 'ConfigurationManager' object has no attribute 'config'
+[2024-09-12 16:20:18,560: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-12 16:20:18,565: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 16:20:18,576: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 16:20:18,576: INFO: common: created directory at: artifacts]
+[2024-09-12 16:20:18,578: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-12 16:20:18,579: ERROR: main: DataIngestion() takes no arguments]
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\bhavya\desktop\kidney disease clasification\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion = DataIngestion(config=data_ingestion_config)
+TypeError: DataIngestion() takes no arguments
+[2024-09-12 16:21:18,193: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-12 16:21:18,196: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 16:21:18,196: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 16:21:18,197: INFO: common: created directory at: artifacts]
+[2024-09-12 16:21:18,198: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-12 16:21:18,198: ERROR: main: DataIngestion() takes no arguments]
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\bhavya\desktop\kidney disease clasification\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion = DataIngestion(config=data_ingestion_config)
+TypeError: DataIngestion() takes no arguments
+[2024-09-12 16:22:22,129: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-12 16:22:22,135: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 16:22:22,137: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 16:22:22,138: INFO: common: created directory at: artifacts]
+[2024-09-12 16:22:22,140: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-12 16:22:22,141: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/13mRYuUPCc4glFqrvLThrxC1zAy5dlHKO/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-09-12 16:22:34,264: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/13mRYuUPCc4glFqrvLThrxC1zAy5dlHKO/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-09-12 16:22:35,137: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-12 16:27:56,409: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-12 16:27:56,411: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 16:27:56,412: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 16:27:56,413: INFO: common: created directory at: artifacts]
+[2024-09-12 16:27:56,414: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-12 16:27:56,415: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/13mRYuUPCc4glFqrvLThrxC1zAy5dlHKO/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-09-12 16:28:09,255: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/13mRYuUPCc4glFqrvLThrxC1zAy5dlHKO/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-09-12 16:28:09,757: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
