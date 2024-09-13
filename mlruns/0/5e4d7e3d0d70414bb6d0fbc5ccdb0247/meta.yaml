@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/BHAVYA/Desktop/Kidney%20disease%20Clasification/Kidney-Disease-Classification-MLflow-DVC/mlruns/0/5e4d7e3d0d70414bb6d0fbc5ccdb0247/artifacts
+end_time: 1726222780464
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5e4d7e3d0d70414bb6d0fbc5ccdb0247
+run_name: unruly-mink-412
+run_uuid: 5e4d7e3d0d70414bb6d0fbc5ccdb0247
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726222766437
+status: 3
+tags: []
+user_id: BHAVYA
